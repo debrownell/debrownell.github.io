@@ -1,258 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Head tag -->
+<html>
 <head>
+  <meta charset="utf-8">
+  
+  <title>hello | Dewitt Brownell&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Welcome to my blog :)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hello">
+<meta property="og:url" content="https://debrownell.github.io/2018/03/06/hello/index.html">
+<meta property="og:site_name" content="Dewitt Brownell&#39;s Blog">
+<meta property="og:description" content="Welcome to my blog :)">
+<meta property="og:updated_time" content="2018-03-06T08:13:44.804Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hello">
+<meta name="twitter:description" content="Welcome to my blog :)">
+  
+  
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+  function jqueryLoaded() {
+    window.postMessage('jquery-load', '*');
+  }
+  </script>
 
-    <!--Description-->
-    
-        <meta name="description" content="Welcome to my blog :)">
-    
+  <link rel="stylesheet" href="/css/style.css">
 
-    <!--Author-->
-    
-        <meta name="author" content="Dewitt Brownell">
-    
+  <script defer src="https://use.fontawesome.com/a49b4f783c.js"></script>
+  <script defer src="//code.jquery.com/jquery-3.2.1.min.js" onload="jqueryLoaded()"></script>
+  <script defer src="/js/script.js"></script>
 
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="hello"/>
-    
-
-    <!--Open Graph Description-->
-    
-        <meta property="og:description" content="Welcome to my blog :)" />
-    
-
-    <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Dewitt Brownell&#39;s Blog"/>
-
-    <!--Type page-->
-    
-        <meta property="og:type" content="article" />
-    
-
-    <!--Page Cover-->
-    
-
-        <meta name="twitter:card" content="summary" />
-    
-
-    <!-- Title -->
-    
-    <title>hello - Dewitt Brownell&#39;s Blog</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
-
-    <!-- Google Analytics -->
-    
-
-
-    <!-- favicon -->
-    
-	
+  
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+    window.addEventListener("message", function(msg) {
+      if(msg.data === 'jquery-load') {
+        $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />');
+      }
+    });
+    </script>
+  
 </head>
 
-
 <body>
-
-    <!-- Menu -->
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Configurable Title</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/">
-                            
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives">
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags">
-                            
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories">
-                            
-                                Categories
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+  <div id="container">
+    <header id="header">
+  <div class="outer">
+    <div class="title">
+      <a href="/" id="logo"><h1>Dewitt Brownell&#39;s Blog</h1></a>
+      <div></div>
     </div>
-    <!-- /.container -->
-</nav>
-
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in your post front-matter: cover -->
-
-<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>hello</h1>
-                    
-                    <span class="meta">
-                        <!-- Date and Author -->
-                        
-                        
-                            2018-03-06
-                        
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="flex-spacer"></div>
+    <nav class="nav">
+      <div>
+        
+          <a href="/" class="nav-link">Blog</a>
+        
+          <a href="/about/" class="nav-link">About</a>
+        
+      </div>
+    </nav>
+  </div>
 </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
+    <div class="outer sidebar">
+      <section id="main"><article id="post-hello" class="card article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <time datetime="2018-03-06T08:13:44.000Z" itemprop="datePublished">2018-03-06</time>
 
-            <!-- Tags and categories -->
-           
-
-            <!-- Gallery -->
-            
-
-            <!-- Post Main Content -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
-
-                
-            </div>
-
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
-
-
-                </div>
-            
-        </div>
     </div>
+  
+  <div class="article-inner">
+    
+
+    
+      <header class="article-header">
+        
+  <h1 class="article-title" itemprop="name">
+    hello
+  </h1>
+
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+    </div>
+    
+      <footer class="article-footer">
+        
+
+        <a data-url="https://debrownell.github.io/2018/03/06/hello/" data-id="cjefe8cqr0001599tiwldoqti" class="article-share-link">share</a>
+        <div class="article-share-box">
+  <div class="article-share-links">
+    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdebrownell.github.io%2F2018%2F03%2F06%2Fhello%2F" class="article-share-twitter" target="_blank" title="Twitter"></a>
+    <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdebrownell.github.io%2F2018%2F03%2F06%2Fhello%2F" class="article-share-facebook" target="_blank" title="Facebook"></a>
+    <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdebrownell.github.io%2F2018%2F03%2F06%2Fhello%2F" class="article-share-linkedin" target="_blank" title="LinkedIn"></a>
+    <a href="https://plus.google.com/share?url=https%3A%2F%2Fdebrownell.github.io%2F2018%2F03%2F06%2Fhello%2F" class="article-share-google" target="_blank" title="Google+"></a>
+  </div>
+</div>
+
+      </footer>
+    
+  </div>
 </article>
 
-    <!-- Footer -->
-    <hr />
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
 
-                    
+</section>
+      
+        <aside id="sidebar">
+  <div class="card">
+    
+      <div id="about-widget">
+  <p>Hello, <br>This is where you would write something short about yourself</p>
+  <div class="user-image">
+    <img src="/css/images/portrait.png">
+  </div>
+  <p class="border-bottom"></p>
+</div>
 
-                    
-                        <li>
-                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
+    
+      <div id="contact-widget">
+  <div>Contact:</div>
+  <p>Feel free to <a href="mailto:undefined" title="send me an email">send me an email</a> anytime</p>
+</div>
 
-                    
+    
+  </div>
+</aside>
 
-                    
-
-                    
-                </ul>
-                <p class="copyright text-muted">&copy; 2018 Dewitt Brownell<br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
-            </div>
-        </div>
+      
     </div>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 Dewitt Brownell
+      <span class="pull-right">
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </span>
+    </div>
+  </div>
 </footer>
 
-
-    <!-- After footer scripts -->
     
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
-<!-- Disqus Comments -->
 
 
 
+
+  </div>
 </body>
-
 </html>
